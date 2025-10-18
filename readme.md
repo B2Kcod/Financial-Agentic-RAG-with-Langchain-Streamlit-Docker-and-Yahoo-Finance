@@ -59,7 +59,7 @@ After a successful build, use the same file to start both the app and ollama ser
 
 Target	Command
 
-GPU (NVIDIA)	
+GPU (NVIDIA with Cuda Toolkit version 12.8)	
 
 docker-compose -f docker-compose.yml up
 
