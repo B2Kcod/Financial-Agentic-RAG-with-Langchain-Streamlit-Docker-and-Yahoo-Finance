@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.py[cd]
+*.swp
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# IDE/Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Docker Caches (optional, but good practice)
+*.dockerignore  # Wait, no—don't ignore this; we want to commit it!
+# Actually, remove this line if present; we DO want to commit .dockerignore
+
+# Logs/Temps
+*.log
+tmp/
+temp/

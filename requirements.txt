@@ -1,0 +1,18 @@
+# UI
+streamlit 
+
+# LangChain 
+langchain-community 
+langchain-huggingface 
+langchain-ollama 
+langchain-groq 
+
+# Vectorstore & embeddings
+langchain-chroma 
+sentence-transformers
+tiktoken 
+torch
+
+# PDF & Yahoo Finance
+pymupdf 
+yfinance 

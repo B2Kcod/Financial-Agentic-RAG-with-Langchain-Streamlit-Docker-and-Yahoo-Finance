@@ -1,0 +1,16 @@
+# Ignore Python bytecode and cache files to reduce image size and avoid including unnecessary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Ignore environment file to prevent sensitive data (e.g., API keys) from being included in the image
+.env
+
+# Ignore Git-related files to keep the image clean and avoid version control metadata
+.git
+.gitignore
+
+# Ignore VS Code configuration files to avoid including editor-specific settings
+.vscode
