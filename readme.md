@@ -59,11 +59,11 @@ Target	Command
 
 GPU (NVIDIA with Cuda Toolkit version 12.8)	
 
-docker-compose -f docker-compose.yml up
+docker compose --profile gpu up -d
 
 CPU (Universal)
 
-docker-compose -f docker-compose-cpu.yml up
+docker compose --profile cpu up -d
 
 The first time you run the up command, the ollama service will automatically pull the qwen2.5:latest model, which will be persisted to the ollama_models volume for faster startups in the future.
 
