@@ -1,5 +1,5 @@
 -r requirements.txt
-torch
-torchvision
-torchaudio
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+torchaudio==2.8.0+cu128
 --extra-index-url https://download.pytorch.org/whl/cu128

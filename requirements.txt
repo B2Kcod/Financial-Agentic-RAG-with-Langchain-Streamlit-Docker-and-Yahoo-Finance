@@ -1,18 +1,17 @@
 # UI
-streamlit 
+streamlit==1.50.0 
 
 # LangChain 
-langchain-community 
-langchain-huggingface 
-langchain-ollama 
-langchain-groq 
+langchain-community==0.3.30 
+langchain-huggingface==0.3.1 
+langchain-ollama==0.3.10
+langchain-groq==0.3.8 
 
 # Vectorstore & embeddings
-langchain-chroma 
-sentence-transformers
-tiktoken 
-torch
+langchain-chroma==0.2.6 
+sentence-transformers==5.1.1
+tiktoken==0.11.0 
 
 # PDF & Yahoo Finance
-pymupdf 
-yfinance 
+pymupdf==1.26.4 
+yfinance==0.2.66 
