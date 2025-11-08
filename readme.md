@@ -45,13 +45,11 @@ Step 1: Build the Image (Choose GPU or CPU)
 
 You need to run the build command once to create your application image.
 
-GPU (NVIDIA with Cuda Toolkit version 12.8)	
+For Nvidia GPU's
+BUILD_TARGET=gpu docker compose --profile gpu up -d
 
-docker-compose -f docker-compose.yml build
-
-CPU (Universal)	
-
-docker-compose -f docker-compose-cpu.yml build
+For CPU
+BUILD_TARGET=cpu docker compose --profile cpu up -d
 
 Step 2: Run the Services
 
