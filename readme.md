@@ -46,10 +46,12 @@ Step 1: Build the Image (Choose GPU or CPU)
 You need to run the build command once to create your application image.
 
 For Nvidia GPU's
-BUILD_TARGET=gpu docker compose --profile gpu up -d
+
+$env:BUILD_TARGET = "gpu"; docker compose --profile gpu up -d
 
 For CPU
-BUILD_TARGET=cpu docker compose --profile cpu up -d
+
+$env:BUILD_TARGET=cpu docker compose --profile cpu up -d
 
 Step 2: Run the Services
 
