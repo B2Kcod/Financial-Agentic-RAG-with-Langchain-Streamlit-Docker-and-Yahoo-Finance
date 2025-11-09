@@ -2,7 +2,7 @@ from config import PERSIST_DIRECTORY, TOC_PERSIST_DIRECTORY
 import os
 from loaders import documents_loader, documents_table_of_contents_loader
 from splitter import documents_splitter
-from llm_embedder_tokeziner import embedder
+from llm_embedder_tokenizer import embedder
 from langchain_chroma import Chroma
 
 #-------------------------------------------------------------------------------------------------------------------------------------------------

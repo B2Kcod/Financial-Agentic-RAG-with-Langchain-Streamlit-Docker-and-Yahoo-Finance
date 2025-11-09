@@ -1,11 +1,11 @@
 from config import MAX_TOKENS
-from llm_embedder_tokeziner import groq_llm, ollama_llm, encoder
+from llm_embedder_tokenizer import groq_llm, ollama_llm, encoder
 from tools import document_retrieval_tool, toc_retrieval_tool, yahoo_finance_tool
 from prompts import ollama_agent_prompt, groq_agent_prompt
 from langchain.agents import create_tool_calling_agent, AgentExecutor, create_react_agent
 from langchain.memory import ConversationBufferMemory
 from langchain_ollama import ChatOllama 
-from llm_embedder_tokeziner import OLLAMA_MODEL, OLLAMA_HOST 
+from llm_embedder_tokenizer import OLLAMA_MODEL, OLLAMA_HOST 
 
 #-------------------------------------------------------------------------------------------------------------------------------------------------
 # Initialize conversation memory to store chat history and manage token limits

@@ -1,6 +1,6 @@
 from config import ENCODER_NAME, CHUNK_SIZE, CHUNK_OVERLAP, SEPARATORS
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from llm_embedder_tokeziner import encoder
+from llm_embedder_tokenizer import encoder
 import warnings
 
 #-------------------------------------------------------------------------------------------------------------------------------------------------
